@@ -16,7 +16,7 @@ var histoires = {
 
 function render_menu_items(obj, klass) {
    return Object.keys(obj).reduce(function (acc, title) {
-      return `${acc}<span class="${klass} file="${obj[title]}">${title}</span>`;
+      return `${acc}<span class="${klass}" file="${obj[title]}">${title}</span>`;
    }, '');
 }
 
