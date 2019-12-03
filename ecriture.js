@@ -1,12 +1,12 @@
 var jours_ensoleilles = {
    'Incipit' : 'incipit.html',
-   'Repas parfait' : 'repas_parfait.txt',
-   'Couteau chinois' : 'couteau_chinois.txt',
-   'Derniers mots' : 'derniers_mots.txt'
+   'Repas parfait' : 'repas_parfait.html',
+   'Couteau chinois' : 'couteau_chinois.html',
+   'Derniers mots' : 'derniers_mots.html'
 }
 
 var misc = {
-   'Stage Crew' : '#',
+   'Crew' : '#',
    'M.' : '#'
 }
 
