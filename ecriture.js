@@ -1,5 +1,5 @@
 var jours_ensoleilles = {
-   'Incipit' : 'incipit.txt',
+   'Incipit' : 'incipit.html',
    'Repas parfait' : 'repas_parfait.txt',
    'Couteau chinois' : 'couteau_chinois.txt',
    'Derniers mots' : 'derniers_mots.txt'
