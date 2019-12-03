@@ -26,24 +26,9 @@ Malesuada nunc vel risus commodo viverra maecenas accumsan lacus. Id ornare arcu
 $(document).ready(function() {
 
    // Populate nav menu
-   // $('#nav_menu').append(Object.keys(pages).reduce(function (acc, title) {
-   //    return `${acc}<a href="${pages[title]}" class="nav_menu_item">${title}</a>`
-   // }, ''));
    $('#nav_menu').append(render_links(pages, 'nav_menu_item'));
-   // console.log($('#nav_icon').css('--image'));
-   // var url = $('#nav_icon').css('--image');
-   // console.log((new URL(url)).href);
-   // $('#nav_icon').prepend($('<img>', {src: url}))
-   // $('#nav_icon').prepend(`<img src=${url}/>`)
-   //    Object.keys(pages).reduce(function (acc, title) {
-   //    return `${acc}<a href="${pages[title]}" class="nav_menu_item">${title}</a>`
-   // }, ''));
 
-   // todo: bold menu item of current page
-   //
-   // console.log('blah');
-
-
+   document.title = '';
 });
 
 function render_links(obj, klass) {
