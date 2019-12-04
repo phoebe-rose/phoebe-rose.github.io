@@ -8,7 +8,7 @@ var jours_ensoleilles = {
 
 var misc = {
    'Crew' : 'stage_crew.html',
-   'M.' : 'michelle.html',
+   'M.' : 'm.html',
    'French': 'french.html',
    'Memoir I' : 'memoir_ch_1.html'
 }
