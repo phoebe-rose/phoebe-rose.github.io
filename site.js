@@ -28,7 +28,7 @@ $(document).ready(function() {
    // Populate nav menu
    $('#nav_menu').append(render_links(pages, 'nav_menu_item'));
 
-   document.title = '';
+   document.title = '🌿';
 });
 
 function render_links(obj, klass) {
