@@ -1,17 +1,21 @@
 var jours_ensoleilles = {
    'Incipit' : 'incipit.html',
+   'The Whitney' : 'whitney.html',
    'Repas parfait' : 'repas_parfait.html',
    'Couteau chinois' : 'couteau_chinois.html',
    'Derniers mots' : 'derniers_mots.html'
 }
 
 var misc = {
-   'Crew' : '#',
-   'M.' : '#'
+   'Crew' : 'stage_crew.html',
+   'M.' : 'michelle.html',
+   'French': 'french.html',
+   'Memoir I' : 'memoir_ch_1.html'
 }
 
 var histoires = {
-   'Jeune garçon' : '#'
+   'Jeune garçon I' : 'jeune_garcon_1.html',
+   'Jeune garçon II' : 'jeune_garcon_2.html'
 }
 
 function render_menu_items(obj, klass) {
@@ -71,14 +75,6 @@ $(document).ready(function() {
       // });
 
       // Clear and populate display
-      // $.get(`./ecriture/${$(this).attr('file')}`, function(data) {
-      //    var title = $(`<h1>${$(this).text()}</h1>`).hide();
-      //    var text = $(`<p>${data}</p>`).hide()
-      //    $('#writing_display').append(title, text);
-      //    title.fadeIn();
-      //    text.fadeIn();
-      // });
-
       $('#writing_display').empty();
       $.ajax({
         url: `./ecriture/${$(this).attr('file')}`,

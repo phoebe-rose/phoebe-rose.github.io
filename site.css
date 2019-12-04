@@ -70,6 +70,19 @@ a.nav_menu_item:hover {
    /* overflow: scroll; */
 }
 
+p.content-text {
+   font-family: Fairfield;
+   font-size: 11pt;
+}
+
+p.content-text a:link, p.content-text a:visited, p.content-text a:active {
+   color: #635780;
+}
+
+p.content-text a:hover {
+   color: #DC394E;
+}
+
 /* ECRITURE */
 
 #writing_menu {
@@ -85,6 +98,7 @@ a.nav_menu_item:hover {
    width: 75%;
    margin-left: 25px;
    /* display: inline-block; */
+   text-align: justify;
    font-family: Fairfield;
 
    /* color:blue; */
@@ -135,6 +149,12 @@ a.nav_menu_item:hover {
    font-family: Fairfield;
    src: url(fonts/fairfield_light.otf);
    /* font-style: normal; */
+}
+
+@font-face {
+   font-family: Fairfield;
+   src: url(fonts/fairfield_light-italic.otf);
+   font-style: italic;
 }
 
 @font-face {
