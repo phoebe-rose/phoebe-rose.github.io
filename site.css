@@ -90,18 +90,14 @@ p.content-text a:hover {
    flex-direction: column;
    float: left;
    width: 25%;
-   /* color:red; */
 }
 
 #writing_display {
    float:left;
    width: 75%;
    margin-left: 25px;
-   /* display: inline-block; */
    text-align: justify;
    font-family: Fairfield;
-
-   /* color:blue; */
 }
 
 #writing_menu h1 {
