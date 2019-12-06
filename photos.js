@@ -159,6 +159,8 @@ $(document).ready(function() {
             image.fadeIn(300);
             caption.fadeIn(300);
          });
+
+         $('img.thumbnail').first().click();
       });
    });
 

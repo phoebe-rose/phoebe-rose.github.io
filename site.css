@@ -202,6 +202,10 @@ p.content-text a:hover {
    margin-left: 30px;
 }
 
+::-webkit-scrollbar {
+    display: none;
+}
+
 /* font stuff */
 
 @font-face {
