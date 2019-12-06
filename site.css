@@ -96,7 +96,7 @@ p.content-text a:hover {
    float:left;
    width: 75%;
    margin-left: 25px;
-   text-align: justify;
+   /* text-align: justify; */
    font-family: Fairfield;
 }
 
@@ -138,6 +138,69 @@ p.content-text a:hover {
    color: red;
 } */
 
+/* PHOTOS/DRAWINGS GALLERY */
+#album_menu {
+   display: flex;
+   flex-direction: column;
+   float: left;
+   width: 15%;
+}
+
+.album_item {
+   font-family: Fairfield;
+   font-style: normal;
+   font-size: 10pt;
+   margin-bottom: 2px;
+   margin-left: 5px;
+}
+
+.album_item_hover {
+   color: red;
+}
+
+#image_menu {
+   display: flex;
+   flex-direction: column;
+   float: left;
+   width: 15vh;
+   overflow-y: scroll;
+   height: 85vh;
+}
+
+#image_display {
+   float:right;
+   width: 60%;
+   margin-left: 40px;
+}
+
+.thumbnail {
+   height: 13vh;
+   width: 13vh;
+   object-fit: cover;
+   margin: 3px;
+   opacity: 0.5;
+   border-radius: 5px;
+   cursor: pointer;
+
+}
+
+/* .thumbnail_hover {
+   opacity: 1.0
+} */
+
+
+.image_caption {
+   padding: 13px;
+   font-family: Fairfield;
+   font-size: 10pt;
+   margin-left: 30px;
+}
+
+.displayed_image {
+   max-height: 80vh;
+   max-width: 50vw;
+   margin-left: 30px;
+}
 
 /* font stuff */
 
