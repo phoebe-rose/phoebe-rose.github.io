@@ -4,7 +4,8 @@ var pages = {
    'pensées' : 'pensees.html',
    'photos' : 'photos.html',
    'livres' : 'livres.html',
-   'musique' : 'musique.html'
+   'musique' : 'musique.html',
+   'films' : 'films.html'
 }
 
 $(document).ready(function() {

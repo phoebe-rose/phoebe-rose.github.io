@@ -1,7 +1,10 @@
 var photos = {
    'B/W' : {
+      'sculpture.jpg' : '',
       'roses.png' : '',
+      'hallway.jpg' : '',
       'multiverse-1.png' : '',
+      'portrait-1.jpg' : '',
       'basketball.jpg' : '',
       'multiverse-2.png' : '',
       'flower.png' : '',
@@ -24,7 +27,7 @@ var photos = {
       'campus - 15.jpg' : 'Physics in the summer',
       'campus - 16.jpg' : '',
       'campus - 17.jpg' : '',
-      'campus - 18.jpg' : 'Job fair',
+      'campus - 18.jpg' : '',
       'campus - 19.jpg' : '',
       'campus - 20.jpg' : '',
       'campus - 21.jpg' : '',

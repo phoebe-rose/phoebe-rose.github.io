@@ -75,12 +75,24 @@ p.content-text {
    font-size: 11pt;
 }
 
-p.content-text a:link, p.content-text a:visited, p.content-text a:active {
-   color: #635780;
+ul.content-text {
+   font-family: Fairfield;
+   font-size: 11pt;
+   line-height: 1.5;
+   list-style-type: square;
 }
 
-p.content-text a:hover {
+p.content-text a:link, p.content-text a:visited, p.content-text a:active,
+ul.content-text a:link, ul.content-text a:visited, ul.content-text a:active  {
+   color: #635780;
+   text-decoration: dotted underline;
+}
+
+p.content-text a:hover,
+ul.content-text a:hover {
    color: #DC394E;
+   letter-spacing: 1px;
+   font-weight: bold;
 }
 
 /* ECRITURE */
@@ -138,7 +150,7 @@ p.content-text a:hover {
    color: red;
 } */
 
-/* PHOTOS/DRAWINGS GALLERY */
+/* PHOTOS/DRAWINGS/FILMS GALLERY */
 #album_menu {
    display: flex;
    flex-direction: column;
