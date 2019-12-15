@@ -20,7 +20,7 @@ var films = {
 
 function render_films(obj, klass) {
    return Object.keys(obj).reduce(function (acc, key) {
-      return `${acc}<span style="font-style: italic" class="${klass}">${key}</span>`;
+      return `${acc}<span class="${klass}">${key}</span>`;
    }, '');
 }
 
