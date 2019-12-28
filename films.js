@@ -15,7 +15,12 @@ var films = {
    'Lost in Translation (2003)' : {},
    'Howl\'s Moving Castle (2004)' : {},
    'Black Swan (2010)' : {},
-   'Cold War (2018)' : {}
+   'Cold War (2018)' : {
+      'cold-war/field.jpg' : '',
+      'cold-war/regard.jpg' : '',
+      'cold-war/eclisse.jpg' : '',
+      'cold-war/micro.jpg' : ''
+   }
 }
 
 function render_films(obj, klass) {
