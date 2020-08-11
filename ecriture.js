@@ -8,9 +8,7 @@ var jours_ensoleilles = {
 
 var misc = {
    'Crew' : 'stage_crew.html',
-   'M.' : 'm.html',
-   'French': 'french.html',
-   'Memoir I' : 'memoir_ch_1.html'
+   'French': 'french.html'
 }
 
 var histoires = {
@@ -49,30 +47,8 @@ $(document).ready(function() {
 
    // Populate writing display
    $('.writing_menu_item').click(function() {
-      // Bold the clicked item
-      // $('.writing_menu_item').css('font-weight', 'normal');
-      // $(this).css('font-weight', 'bold');
-
       $('.writing_menu_item').css('text-decoration', 'none');
       $(this).css('text-decoration', 'underline dotted');
-
-      // TEST
-      // $('#writing_display').empty();
-      // $.ajax({
-      //   url: 'https://www.w3.org/TR/PNG/iso_8859-1.txt',
-      //   success: function(data) {
-      //     var title = $('<h1>Test piece</h1>').hide();
-      //     var text = $(`<p>${data}</p>`).hide()
-      //     $('#writing_display').append(title, text);
-      //     title.fadeIn();
-      //     text.fadeIn();
-      //   },
-      //   error: function(XMLHttpRequest, textStatus, errorThrown) {
-      //     var text = $(`<p>Content unavailable</p>`).hide()
-      //     $('#writing_display').append(text);
-      //     text.fadeIn();
-      //   }
-      // });
 
       // Clear and populate display
       $('#writing_display').empty();

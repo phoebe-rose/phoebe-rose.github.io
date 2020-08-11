@@ -39,35 +39,21 @@ body {
 a.nav_menu_item:link, a.nav_menu_item:visited, a.nav_menu_item:active {
    font-family: BankPrinter;
    font-size: 8pt;
-   color: #635780; /*#4C3F57; */
-   /* display: inline-block; */
-   /* margin: 0px 5px; */
+   color: #635780;
    padding-bottom: 5px;
    text-align: center;
    text-decoration: none;
-   /* display: inline-block; */
 }
 
 a.nav_menu_item:hover {
-   color: #DC394E; /*#B91037;*/
-   /* background-color: #dddddd; */
-   /* display: inline-block; */
+   color: #DC394E;
 }
 
 #content {
-   /* float: left; */
    position: relative;
    left: 18vw;
-   /* margin-left: 0px; */
    margin-top: 50px;
-   /* margin: 10px 0px 10px 20px; */
-   /* position: relative; */
-   /* background-color: #CAF2C8; */
    width: 65vw;
-   /* font-family: Fairfield;
-   font-size: 11pt; */
-   /* height: 80vh; */
-   /* overflow: scroll; */
 }
 
 p.content-text {
@@ -95,6 +81,15 @@ ul.content-text a:hover {
    font-weight: bold;
 }
 
+.submenu::-webkit-scrollbar {
+  display: none;
+}
+
+.submenu {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
 /* ECRITURE */
 
 #writing_menu {
@@ -108,24 +103,19 @@ ul.content-text a:hover {
    float:left;
    width: 75%;
    margin-left: 25px;
-   /* text-align: justify; */
    font-family: Fairfield;
 }
 
 #writing_menu h1 {
    font-family: Fairfield;
-   /* font-style: italic; */
-   /* font-weight: normal; */
    font-size: 10pt;
    margin-bottom: 4px;
-   /* text-decoration: underline double; */
 }
 
 .writing_menu_item {
    font-family: Fairfield;
    font-style: normal;
    font-size: 10pt;
-   /* margin-top: 3px; */
    margin-bottom: 2px;
    margin-left: 5px;
 }
@@ -135,20 +125,7 @@ ul.content-text a:hover {
 
 #writing_display h1 {
    font-size: 13pt;
-   /* font-style: italic; */
 }
-
-#writing_display p {
-   /* margin: 0; */
-}
-/* .writing_menu_item:link, .writing_menu_item:active, .writing_menu_item:visited  {
-   font-family: serif;
-}
-
-.writing_menu_item:hover {
-   font-family: serif;
-   color: red;
-} */
 
 /* PHOTOS/DRAWINGS/FILMS GALLERY */
 #album_menu {
@@ -196,11 +173,6 @@ ul.content-text a:hover {
 
 }
 
-/* .thumbnail_hover {
-   opacity: 1.0
-} */
-
-
 .image_caption {
    padding: 13px;
    font-family: Fairfield;
@@ -223,7 +195,6 @@ ul.content-text a:hover {
 @font-face {
    font-family: Fairfield;
    src: url(fonts/fairfield_light.otf);
-   /* font-style: normal; */
 }
 
 @font-face {

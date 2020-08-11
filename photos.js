@@ -66,7 +66,7 @@ var photos = {
       'misc - 20.jpg' : ''
    },
    'Travels' : {
-      'travels - 1.jpg' : 'Driving the perimeter of Big Island',
+      'travels - 1.jpg' : 'Driving the perimeter of Oahu',
       'travels - 2.jpg' : '',
       'travels - 3.jpg' : '',
       'travels - 4.jpg' : '',
