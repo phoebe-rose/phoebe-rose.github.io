@@ -1,5 +1,11 @@
 var drawings = {
    'Portraiture' : {
+      'baroque_sculpture.jpg' : '',
+      'rodin_bust.jpg' : '',
+      'rodin_bust_2.jpg' : '',
+      'rodin_bust_3.jpg' : '',
+      'van_dyke.jpg' : '',
+      'rodin_mother.jpg' : '',
       'el greco 1.jpg' : '',
       'sculpture.jpg' : '',
       'giuseppe.jpg' : '',
@@ -7,12 +13,11 @@ var drawings = {
       'jane.jpg' : '',
       'misc-1.png' : '',
       'misc-2.png' : '',
-      'slumber.png' : '',
+      'slumber.png' : ''
    },
    'Danse' : {
       'danse-2.png' : '',
       'danse-1.png' : '',
-
       'danse-3.png' : '',
       'danse-4.png' : '',
       'danse-5.png' : ''
@@ -127,8 +132,5 @@ $(document).ready(function() {
          $('img.thumbnail').first().click();
       });
    });
-
-
-
 
 });
